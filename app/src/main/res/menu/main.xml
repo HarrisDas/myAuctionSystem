@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id ="@+id/post_an_item"
+        android:title="@string/post_An_item"
+        app:showAsAction="never"
+        android:visible="false"
+
+        />
+
+    <item
+        android:id="@+id/action_sign_out"
+        android:title="@string/sign_out"
+        app:showAsAction="never"
+        android:visible="true" />
+    <item
+        android:id="@+id/my_auctions"
+        android:title="@string/my_auctions"
+        app:showAsAction="never"
+        android:visible="false" />
+    <item
+        android:id="@+id/future_auctions"
+        android:title="@string/future_auctions"
+        app:showAsAction="never"
+        android:visible="false" />
+    <item
+        android:id="@+id/win_auctions"
+        android:title="@string/win_auctions"
+        app:showAsAction="never"
+        android:visible="false" />
+    <item
+        android:id="@+id/live_auctions"
+        android:title="@string/live_auctions"
+        app:showAsAction="never"
+        android:visible="false" />
+
+</menu>
